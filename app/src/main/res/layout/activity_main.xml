@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginRight="5dp"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TextViewOptions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login or Create Student Profile"
+                android:textSize="11pt"
+                android:layout_marginBottom="10dp"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/EditTextLoginUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextLoginPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"></EditText>
+
+            <Button
+                android:id="@+id/ButtonLogin"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Login"
+                android:textSize="8pt"></Button>
+
+            <TextView
+                android:id="@+id/TextViewOR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="or"
+                android:textSize="11pt"
+                android:layout_marginTop = "10dp"
+                android:layout_marginBottom = "10dp"></TextView>
+
+            <TextView
+                android:id="@+id/TextViewCreateProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Student Profile"
+                android:textSize="10pt"></TextView>
+
+            <EditText
+                android:id="@+id/EditTextUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username*"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password*"
+                android:inputType="textPassword"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextConfirmPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password*"
+                android:inputType="textPassword"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextFirstName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name*"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextLastName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Last Name*"
+                android:inputType="textPersonName"></EditText>
+
+            <Button
+                android:id="@+id/ButtonDOB"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Select Date of Birth*"
+                android:textSize="8pt"></Button>
+
+            <Button
+                android:id="@+id/ButtonMajors"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Select Majors of Interest*"
+                android:textSize="8pt"></Button>
+
+            <EditText
+                android:id="@+id/EditTextHighSchool"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="High School*"
+                android:inputType="textPersonName"></EditText>
+
+            <Button
+                android:id="@+id/ButtonColleges"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Select Colleges of Interest*"
+                android:textSize="8pt"></Button>
+
+            <EditText
+                android:id="@+id/EditTextGPA"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="GPA*"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="City*"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextState"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="State*"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address*"
+                android:inputType="textMultiLine"
+                android:lines="3"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email*"
+                android:inputType="textPersonName"></EditText>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you taken the SAT*"
+                android:textSize="8pt" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/RadioButtonSATYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES" />
+
+                <RadioButton
+                    android:id="@+id/RadioButtonSATNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Have you taken the ACT*"
+                android:textSize="8pt" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:id="@+id/RadioButtonACTYes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="YES" />
+
+                <RadioButton
+                    android:id="@+id/RadioButtonACTNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NO" />
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/EditTextSATScore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="SAT Score"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextACTScore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="ACT Score"
+                android:inputType="textPersonName"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextSATSubjectTestScores"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="SAT Subject Test Scores"
+                android:inputType="textMultiLine"
+                android:lines="5"></EditText>
+
+            <EditText
+                android:id="@+id/EditTextAPTestScores"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="AP Test Scores"
+                android:inputType="textMultiLine"
+                android:lines="5"></EditText>
+
+            <Button
+                android:id="@+id/ButtonCreateProfile"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Create Profile"
+                android:textSize="8pt"
+                android:layout_marginBottom = "10dp"></Button>
+        </LinearLayout>
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

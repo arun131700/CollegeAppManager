@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">College Application Manager</string>
+
+    <string-array name = "majors">
+        <item>Accounting</item>
+        <item>Anthropology</item>
+        <item>Architecture</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Cognitive Science</item>
+        <item>Computer Engineering</item>
+        <item>Computer Science</item>
+        <item>Communication</item>
+        <item>Electrical Engineering</item>
+        <item>Finance</item>
+        <item>German</item>
+        <item>Music</item>
+        <item>Physics</item>
+        <item>Urban Studies</item>
+        <item>Visual Studies</item>
+    </string-array>
+
+    <string-array name = "colleges">
+        <item>Brown University</item>
+        <item>Columbia University</item>
+        <item>Cornell University</item>
+        <item>Dartmouth College</item>
+        <item>Harvard University</item>
+        <item>Princeton University</item>
+        <item>University of Pennsylvania</item>
+        <item>Yale University</item>
+    </string-array>
+</resources>
